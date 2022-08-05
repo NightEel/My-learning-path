@@ -3,9 +3,9 @@ public class uniform_random_numbers {
     {
         //Generating the numbers
         double first    =   Math.random();
-        double second   =   Math.random();
-        double third    =   Math.random();
-        double fourth   =   Math.random();
+        double second  =   Math.random();
+        double third   =   Math.random();
+        double fourth  =   Math.random();
         double fifth    =   Math.random();
 
         //Calculating their average value, and their minimum and maximum values
