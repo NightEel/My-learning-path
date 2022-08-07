@@ -22,11 +22,17 @@ public class kary {
             double h    =   i;
             while (b >= 0)
             {
-                double t    =   h;
-                h           =   h / Math.pow(k, b);
-                j           =   j + (int) h;
-                h           =   t % Math.pow(k, b);
-                b           =   b - 1;
+                double t                    =   h;
+                h                           =   h / Math.pow(k, b);
+                if      ((int) h == 10) j   =   j + "A";
+                else if ((int) h == 11) j   =   j + "B";
+                else if ((int) h == 12) j   =   j + "C";
+                else if ((int) h == 13) j   =   j + "D";
+                else if ((int) h == 14) j   =   j + "E";
+                else if ((int) h == 15) j   =   j + "F";
+                else j                      =   j + (int) h;
+                h                           =   t % Math.pow(k, b);
+                b                           =   b - 1;
             }
 
             //Printing the outcome
