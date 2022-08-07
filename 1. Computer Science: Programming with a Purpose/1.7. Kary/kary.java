@@ -30,7 +30,7 @@ public class kary {
             }
 
             //Printing the outcome
-            if (i < 0) System.out.println(j);
+            if (l > 0) System.out.println(j);
             else System.out.println("-" + j);
         }
         else System.out.println("The second argument must be a integer between two and sixteen");
