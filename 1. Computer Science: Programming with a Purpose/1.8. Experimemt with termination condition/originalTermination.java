@@ -27,6 +27,6 @@ public class originalTermination {
             System.out.println("The elapsed time is " + elapsedTime + " ms.");
             n           =   m + 1;
         }
-        System.out.println("The largest number such that the program has finished within 10 seconds is " + (n - 1));
+        System.out.println("The largest number such that the program has finished in 10 seconds or more is " + (n - 1));
     }
 }
