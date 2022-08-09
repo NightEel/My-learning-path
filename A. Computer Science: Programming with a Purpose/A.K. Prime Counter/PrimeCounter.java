@@ -27,12 +27,12 @@ public class PrimeCounter {
             else
             {
                 boolean z = true;
-                for (int k = 31; k < (m / k) + 1; k = k + 2)
+                for (int k = 31; k < (m / k) + 1; k = k + 2)    // The "/ k" instead of a constant decreases significaly the run time
                 {
                     if (m % k == 0)
                     {
                         z   =   false;
-                        break;
+                        break;                                  // That way it stops computing the rest
                     }
                 }
                 if (z) System.out.println(m);
