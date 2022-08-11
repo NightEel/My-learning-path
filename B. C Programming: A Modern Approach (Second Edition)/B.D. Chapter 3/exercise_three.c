@@ -24,7 +24,7 @@ int main (void)
 	printf("c1 = %f, c2 = %f.\n", c1, c2);
 	
 	printf("Give me d11 and d12: ");
-	scanf("%f,%f", &d11, &d12);
+	scanf(".%f,%f", &d11, &d12);
 	printf("Give me d21 and d22: ");
 	scanf("%f, %f", &d21, &d22);
 	printf("d11 = %f, d12 = %f.\nd21 = %f, d22 = %f.\n", d11, d12, d21, d22);
