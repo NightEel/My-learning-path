@@ -9,3 +9,9 @@ In the second one, it would work.\
 (c) They aren't equivalent because for the second example to stop asking for input you have to type a non-white character, which is put back. This is why I've
 write a `.`the first %f in (d).\
 (d) They are equivalent because `scanf` ignores white spaces when looking for the beginning of a number.
+
+### Exercise four
+<pre>
+i = 10
+x = 0.3
+j = 5
