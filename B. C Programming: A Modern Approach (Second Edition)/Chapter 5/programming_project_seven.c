@@ -9,7 +9,7 @@ int main(void)
 
 	// Comparing the two first numbers
 	if (first >= second) {max1 = first; min1 = second;}
-	else                 {max1 = second; min1 = first;}
+	else                {max1 = second; min1 = first;}
 
         // Comparing the two last numbers
 	if (third >= fourth) {max2 = third; min2 = fourth;}
